@@ -10,6 +10,9 @@ You can see a sample credential file in "sample_credentials.key".
 
 ## Requirements:
 
-- [fast.ai](http://github.com/fastai/fastai)
+- [fast.ai](http://github.com/fastai/fastai) (make sure you also 'activate fastai')
 - [praw](https://github.com/praw-dev/praw)
+- spacy
+  - ```conda install spacy (or pip install spacy)```
+  - ```python -m spacy download en ``` (may need to run this as admin in Windows)
 
