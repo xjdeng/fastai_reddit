@@ -6,6 +6,8 @@ credentials.key
 train/
 test/
 models/
+*.pkl
+*Copy*
 
 # C extensions
 *.so
