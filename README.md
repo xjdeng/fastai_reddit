@@ -17,3 +17,10 @@ You can see a sample credential file in "sample_credentials.key".
   - ```conda install spacy (or pip install spacy)```
   - ```python -m spacy download en ``` (may need to run this as admin in Windows)
 
+## Notebooks:
+
+- user.ipynb: Trains a model to imitate a user's last 1000 comments and self texts
+- subreddit.ipynb: Trains a model to imitate a subreddit's top 1000 submissions and its comments
+
+Ignore the "main_files.ipynb" notebook for now (it was an experiment I did earlier.)
+
