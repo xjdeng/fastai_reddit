@@ -12,6 +12,7 @@ You can see a sample credential file in "sample_credentials.key".
 
 - [fast.ai](http://github.com/fastai/fastai) (make sure you also 'activate fastai')
 - [praw](https://github.com/praw-dev/praw)
+- Beautifulsoup 4 (```conda install beautifulsoup4``` or ```pip install beautifulsoup4```)
 - spacy
   - ```conda install spacy (or pip install spacy)```
   - ```python -m spacy download en ``` (may need to run this as admin in Windows)
