@@ -60,7 +60,10 @@ def get_comment_text(comment, minchars = 200):
 def parse_comments(posts, minchars = 200):
     alltext = []
     for p in posts:
-        tmp = noquotes(p.selftext)
+        try:
+            tmp = noquotes(p.selftext)
+        except AttributeError:
+            continue
         if len(tmp) >= minchars:
             alltext.append(tmp)
         for c in p.comments.list():
